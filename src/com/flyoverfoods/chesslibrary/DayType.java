@@ -5,7 +5,7 @@ package com.flyoverfoods.chesslibrary;
  * @version     x.x                 (current version number of program)
  * @since       x.x          (the version of the package this class was first added to)
  */
-public enum Day {
+public enum DayType {
 
     SUNDAY,
     MONDAY,
