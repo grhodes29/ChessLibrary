@@ -1,4 +1,4 @@
-package com.flyoverfoods.chesslibrary;
+package com.flyoverfoods.patterns;
 
 public class Singleton
 {
@@ -40,7 +40,7 @@ public class Singleton
     private static Singleton single_instance = null;
 
     // variable of type String
-    private String s;
+    public String s;
 
     // private constructor restricted to this class itself
     private Singleton()
