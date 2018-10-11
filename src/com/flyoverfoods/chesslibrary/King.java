@@ -7,7 +7,8 @@ package com.flyoverfoods.chesslibrary;
  * @version     x.x                 (current version number of program)
  * @since       x.x          (the version of the package this class was first added to)
  */
-public class Pawn extends ChessPiece {
+public class King extends ChessPiece {
+
 
 
 }

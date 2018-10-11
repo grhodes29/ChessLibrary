@@ -9,20 +9,29 @@ package com.flyoverfoods.chesslibrary;
 public class ChessPiece implements IChessPiece {
 
     private boolean _alive;
-
-
-
+    private String _currentPosition;
 
     @Override
     public boolean IsAlive() {
+        return this.getAlive();
+    }
+
+    @Override
+    public String GetCurrentPosition(){
+        return _currentPosition;
+    }
 
 
-
+    public boolean getAlive(){
         return _alive;
     }
 
+    public void setAlive(boolean inValue) {
+        _alive = inValue;
+    }
+
     public ChessPiece(){
-        _alive = true;
+        this.setAlive(true);
     }
 
 }
